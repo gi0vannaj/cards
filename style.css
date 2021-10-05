@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+header{
+    display: grid;
+    place-content: center;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-body {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+.card-title{
+    background-color: #533a97;
+    display: grid;
+    place-content: center;
+    font-size: 2rem;
+}
+
+.card-text {
+    padding: 10px;
+    background-color: #b4a4df;
+    font-size: 1.5rem;
+}
+
